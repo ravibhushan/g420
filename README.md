@@ -21,16 +21,19 @@ public class InputBoxes {
         String first_name;
         
         //Ask First Name
+        
         first_name = JOptionPane.showInputDialog("First Name");
 
 
 
         //Ask Family Name
+        
         String family_name;
         family_name = JOptionPane.showInputDialog("Family Name");
 
 
-        /Display both the firstname and the full name
+        //Display both the firstname and the full name
+        
         String full_name;
         full_name = "You are " + first_name + " " + family_name;
         JOptionPane.showMessageDialog( null, full_name );
